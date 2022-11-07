@@ -1,0 +1,640 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "med sync",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "askFirstLastName",
+          "slots": [
+            {
+              "name": "firstName",
+              "type": "FIRSTNAME"
+            },
+            {
+              "name": "lastName",
+              "type": "LASTNAME"
+            }
+          ],
+          "samples": [
+            "I am {firstName} {lastName}",
+            "My first name is {firstName} and my last name is {lastName}",
+            "Name is {firstName} {lastName}",
+            "My name is {firstName} {lastName}"
+          ]
+        },
+        {
+          "name": "askBloodGlucose",
+          "slots": [
+            {
+              "name": "glucoseVal",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "glucoseUnit",
+              "type": "glucoseLevelUnit"
+            }
+          ],
+          "samples": [
+            "My glucose level is {glucoseVal} {glucoseUnit}",
+            "{glucoseVal} {glucoseUnit}",
+            "My blood glucose is {glucoseVal} {glucoseUnit}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cody"
+              }
+            },
+            {
+              "name": {
+                "value": "richie"
+              }
+            },
+            {
+              "name": {
+                "value": "jim"
+              }
+            },
+            {
+              "name": {
+                "value": "billy"
+              }
+            },
+            {
+              "name": {
+                "value": "vince"
+              }
+            },
+            {
+              "name": {
+                "value": "tommy"
+              }
+            },
+            {
+              "name": {
+                "value": "bobby"
+              }
+            },
+            {
+              "name": {
+                "value": "gary"
+              }
+            },
+            {
+              "name": {
+                "value": "kenny"
+              }
+            },
+            {
+              "name": {
+                "value": "doug"
+              }
+            },
+            {
+              "name": {
+                "value": "stacey"
+              }
+            },
+            {
+              "name": {
+                "value": "andy"
+              }
+            },
+            {
+              "name": {
+                "value": "charlie"
+              }
+            },
+            {
+              "name": {
+                "value": "jimmy"
+              }
+            },
+            {
+              "name": {
+                "value": "joey"
+              }
+            },
+            {
+              "name": {
+                "value": "katie"
+              }
+            },
+            {
+              "name": {
+                "value": "ricky"
+              }
+            },
+            {
+              "name": {
+                "value": "dave"
+              }
+            },
+            {
+              "name": {
+                "value": "steve"
+              }
+            },
+            {
+              "name": {
+                "value": "danny"
+              }
+            },
+            {
+              "name": {
+                "value": "brian"
+              }
+            },
+            {
+              "name": {
+                "value": "mike"
+              }
+            },
+            {
+              "name": {
+                "value": "chris"
+              }
+            },
+            {
+              "name": {
+                "value": "nick"
+              }
+            },
+            {
+              "name": {
+                "value": "justin"
+              }
+            },
+            {
+              "name": {
+                "value": "lauren"
+              }
+            },
+            {
+              "name": {
+                "value": "robbie"
+              }
+            },
+            {
+              "name": {
+                "value": "brett"
+              }
+            },
+            {
+              "name": {
+                "value": "greg"
+              }
+            },
+            {
+              "name": {
+                "value": "akhilesh"
+              }
+            },
+            {
+              "name": {
+                "value": "shaun"
+              }
+            },
+            {
+              "name": {
+                "value": "jeremy"
+              }
+            },
+            {
+              "name": {
+                "value": "Nicholas"
+              }
+            },
+            {
+              "name": {
+                "value": "derek"
+              }
+            },
+            {
+              "name": {
+                "value": "darren"
+              }
+            },
+            {
+              "name": {
+                "value": "brendan"
+              }
+            },
+            {
+              "name": {
+                "value": "liam"
+              }
+            },
+            {
+              "name": {
+                "value": "kevin"
+              }
+            },
+            {
+              "name": {
+                "value": "sean"
+              }
+            },
+            {
+              "name": {
+                "value": "jason"
+              }
+            },
+            {
+              "name": {
+                "value": "jamie"
+              }
+            },
+            {
+              "name": {
+                "value": "brad"
+              }
+            },
+            {
+              "name": {
+                "value": "shane"
+              }
+            },
+            {
+              "name": {
+                "value": "kyle"
+              }
+            },
+            {
+              "name": {
+                "value": "ryan"
+              }
+            },
+            {
+              "name": {
+                "value": "matt"
+              }
+            },
+            {
+              "name": {
+                "value": "jake"
+              }
+            },
+            {
+              "name": {
+                "value": "zach"
+              }
+            },
+            {
+              "name": {
+                "value": "josh"
+              }
+            },
+            {
+              "name": {
+                "value": "Max"
+              }
+            },
+            {
+              "name": {
+                "value": "Gabe"
+              }
+            },
+            {
+              "name": {
+                "value": "Avik"
+              }
+            },
+            {
+              "name": {
+                "value": "Rohan"
+              }
+            }
+          ],
+          "name": "FIRSTNAME"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "turner"
+              }
+            },
+            {
+              "name": {
+                "value": "evans"
+              }
+            },
+            {
+              "name": {
+                "value": "parker"
+              }
+            },
+            {
+              "name": {
+                "value": "cruz"
+              }
+            },
+            {
+              "name": {
+                "value": "diaz"
+              }
+            },
+            {
+              "name": {
+                "value": "nguyen"
+              }
+            },
+            {
+              "name": {
+                "value": "hill"
+              }
+            },
+            {
+              "name": {
+                "value": "flores"
+              }
+            },
+            {
+              "name": {
+                "value": "rivera"
+              }
+            },
+            {
+              "name": {
+                "value": "hall"
+              }
+            },
+            {
+              "name": {
+                "value": "baker"
+              }
+            },
+            {
+              "name": {
+                "value": "green"
+              }
+            },
+            {
+              "name": {
+                "value": "king"
+              }
+            },
+            {
+              "name": {
+                "value": "allen"
+              }
+            },
+            {
+              "name": {
+                "value": "young"
+              }
+            },
+            {
+              "name": {
+                "value": "walker"
+              }
+            },
+            {
+              "name": {
+                "value": "robinson"
+              }
+            },
+            {
+              "name": {
+                "value": "lewis"
+              }
+            },
+            {
+              "name": {
+                "value": "ramirez"
+              }
+            },
+            {
+              "name": {
+                "value": "clark"
+              }
+            },
+            {
+              "name": {
+                "value": "sanchez"
+              }
+            },
+            {
+              "name": {
+                "value": "harris"
+              }
+            },
+            {
+              "name": {
+                "value": "white"
+              }
+            },
+            {
+              "name": {
+                "value": "thompson"
+              }
+            },
+            {
+              "name": {
+                "value": "perez"
+              }
+            },
+            {
+              "name": {
+                "value": "lee"
+              }
+            },
+            {
+              "name": {
+                "value": "martin"
+              }
+            },
+            {
+              "name": {
+                "value": "jackson"
+              }
+            },
+            {
+              "name": {
+                "value": "moore"
+              }
+            },
+            {
+              "name": {
+                "value": "taylor"
+              }
+            },
+            {
+              "name": {
+                "value": "thomas"
+              }
+            },
+            {
+              "name": {
+                "value": "anderson"
+              }
+            },
+            {
+              "name": {
+                "value": "wilson"
+              }
+            },
+            {
+              "name": {
+                "value": "sharma"
+              }
+            },
+            {
+              "name": {
+                "value": "gonzales"
+              }
+            },
+            {
+              "name": {
+                "value": "lopez"
+              }
+            },
+            {
+              "name": {
+                "value": "hernandez"
+              }
+            },
+            {
+              "name": {
+                "value": "martinez"
+              }
+            },
+            {
+              "name": {
+                "value": "rodriguez"
+              }
+            },
+            {
+              "name": {
+                "value": "davis"
+              }
+            },
+            {
+              "name": {
+                "value": "miller"
+              }
+            },
+            {
+              "name": {
+                "value": "garcia"
+              }
+            },
+            {
+              "name": {
+                "value": "jones"
+              }
+            },
+            {
+              "name": {
+                "value": "brown"
+              }
+            },
+            {
+              "name": {
+                "value": "williams"
+              }
+            },
+            {
+              "name": {
+                "value": "johnson"
+              }
+            },
+            {
+              "name": {
+                "value": "smith"
+              }
+            },
+            {
+              "name": {
+                "value": "sarkar"
+              }
+            },
+            {
+              "name": {
+                "value": "mishra"
+              }
+            },
+            {
+              "name": {
+                "value": "sinha"
+              }
+            },
+            {
+              "name": {
+                "value": "kumar"
+              }
+            },
+            {
+              "name": {
+                "value": "Richards"
+              }
+            },
+            {
+              "name": {
+                "value": "Bengkins"
+              }
+            },
+            {
+              "name": {
+                "value": "ghosh"
+              }
+            },
+            {
+              "name": {
+                "value": "chatterjee"
+              }
+            },
+            {
+              "name": {
+                "value": "mukherjee"
+              }
+            },
+            {
+              "name": {
+                "value": "Banerjee"
+              }
+            }
+          ],
+          "name": "LASTNAME"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": " milligrams per decilitre"
+              }
+            },
+            {
+              "name": {
+                "value": "millimole per liter"
+              }
+            }
+          ],
+          "name": "glucoseLevelUnit"
+        }
+      ]
+    }
+  },
+  "version": "4"
+}
